@@ -42,27 +42,46 @@ Reporting: PDF reports for EDA plots & model performance
 
 # Model evaluation
 Models were evaluated using performance metrics:
+
 •	R² Score
+
 •	Mean Absolute Error (MAE)
+
 •	Root Mean Squared Error (RMSE)
+
        Model          	   R2 Score	    MAE        RMSE
+	   
 	Linear Regression	      0.988430	  1.646970	  2.075066
+	
  	Ridge Regression	      0.988430	  1.646969	  2.075067
+	
 	Lasso Regression	      0.988415	  1.648104	  2.076465
+	
 	Elastic Net	           	  0.988410	  1.648055	  2.076879
+	
 	Gradient Boosting	      0.987713	  1.699349	  2.138376
+	
 	Support Vector Machine	  0.987698	  1.690369	  2.139755
+	
 	Random Forest	          0.986122	  1.811939	  2.272650
+	
 	Decision Tree	          0.982806	  2.010380	  2.529620
+	
 	AdaBoost	              0.979269	  2.197972	  2.777672
+	
 	KNN Regressor	          0.978284	  2.301100	  2.842885
 
  # Visulaization - model performamce
 <img width="990" height="468" alt="download" src="https://github.com/user-attachments/assets/e9fd191f-ff5b-4c1e-b8b0-2b1a73b7aa20" />
 
 # Results and Outcomes
+
 •	Successfully identified key factors affecting student performance
+
 •	Achieved high prediction accuracy with ensemble models
+
 •	Random Forest model showed the balanced bias-variance tradeoff
+
 •	Generated model comparison tables and visual performance plots
+
 •	Linear regresion model is best performing model for this student perfomance datasets
